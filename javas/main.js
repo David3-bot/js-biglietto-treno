@@ -11,7 +11,7 @@ console.log(priceTicket);
 console.log(Math.round(priceTicket * 100) / 100)
 console.log("Prezzo intero");
 
-if (userAge <= 18) {
+if (userAge < 18) {
     var calcoloScontoJunior = ((priceTicket * 20) / 100);
     var ticketUnder = priceTicket - calcoloScontoJunior;
     console.log(ticketUnder);
