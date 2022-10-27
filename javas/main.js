@@ -4,7 +4,7 @@ console.log("Distanza")
 
 const userAge = parseInt(prompt('Quanti anni hai?'));
 console.log(userAge);
-console.log("Eta");
+console.log("Età");
 
 var priceTicket = kmViaggio * 0.21;
 console.log(priceTicket);
@@ -19,7 +19,7 @@ if (userAge < 18) {
     console.log("Prezzo scontato");
 }
 
-    else if (userAge >= 65) {
+    else if (userAge > 65) {
     var calcoloScontoSenior = ((priceTicket * 40 / 100));
     var ticketOver = priceTicket - calcoloScontoSenior;
     console.log(ticketOver);
